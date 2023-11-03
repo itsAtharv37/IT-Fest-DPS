@@ -1,0 +1,38 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.retro-font{
+    font-family: 'Pacifico', cursive;
+    text-shadow: 2px 2px 0 rbga(0,0,0,0.2);
+}
+
+.retro-heading {
+    @apply text-4xl retro-font;
+}
+.retro-bg{
+    background-color: #FFA07A;
+}
+
+.retro-text{
+    color: #800000;
+}
+
+.retro-border{
+    border: 2px solid #CD5C5C;
+}
+
+.retro-button{
+    @apply rounded-lg retro-border;
+}
+
+.retro-button:hover{
+    @apply hover:scale-100
+}
+
+.retro-pattern{
+    background: linear-gradient(45deg, #FFD700, #FFA07A);
+}

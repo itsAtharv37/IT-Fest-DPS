@@ -1,0 +1,29 @@
+{
+  "name": "it-fest-dps",
+  "description": "IT FEST project for school",
+  "version": "1.0.0",
+  "main": "./IT-FEST/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itsAtharv37/IT-Fest-DPS.git"
+  },
+  "keywords": [
+    "IT-FEST",
+    "DPS",
+    "Retro"
+  ],
+  "author": "Atharv Dewangan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/itsAtharv37/IT-Fest-DPS/issues"
+  },
+  "homepage": "https://github.com/itsAtharv37/IT-Fest-DPS#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.31",
+    "tailwindcss": "^3.3.5"
+  }
+}
